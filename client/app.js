@@ -19,7 +19,7 @@
       .when('/profile', {
         templateUrl: 'app/profile/profile.html',
         controller: 'profileController',
-        authenticate: true
+        // authenticate: true
       })
       .otherwise({
         redirectTo: '/'
